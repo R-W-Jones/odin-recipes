@@ -1,26 +1,6 @@
-h1 {
-    text-align: center;
-    margin-top: 20px; /* Add some space at the top, if needed */
-    font-size: 2.5em; /* Larger size for the main title */
-    font-weight: bold;
-  }
+ /*color: #FF6F61; /* Accent color for headings */
 
-  h2 {
-    font-size: 1.8em;
-    margin-top: 20px;
-    color: #333; /* Darker text for subheadings */
-  }
-
-  h1, h2, h3 {
-    color: #FF6F61; /* Accent color for headings */
-  }
   
-  
-  p, ul, ol {
-    font-size: 1.1em; /* Slightly larger base font */
-    line-height: 1.6; /* Improve readability with line spacing */
-  }
-
   /* Set a light yellow background for the entire page */
 body {
     background-color: #FFF9DB; /* Light yellow */
@@ -31,14 +11,67 @@ body {
     padding: 20px;
   }
   
-  /* Style the image with rounded corners and center alignment */
-  img {
-    border-radius: 15px; /* Rounded corners */
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Center the image */
-  }
+ /* Header styling */
+.recipe-header {
+  text-align: center;
+  background-color: #FF6F61;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Image container with margins and centering */
+.recipe-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipe-image img {
+  border-radius: 10px;
+  border: 2px solid #FF6F61;
+}
+
+/* Description box with padding and margins */
+.recipe-description {
+  background-color: #FFF3E0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Ingredients list styled with margins and padding */
+.recipe-ingredients {
+  background-color: #E0F7FA;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.recipe-ingredients ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* Steps list styled similarly to ingredients */
+.recipe-steps {
+  background-color: #E8F5E9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.recipe-steps ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* Ensure there is space between sections */
+.recipe-steps, .recipe-ingredients, .recipe-description {
+  margin-bottom: 20px;
+}
 
   /* Style the recipe grid */
 .recipe-grid {
@@ -64,4 +97,7 @@ body {
     font-size: 1.2em;
   }
   
+  h2, h3{
+    color: #FF6F61;
+  }
   
